@@ -9,6 +9,19 @@
 .edge:hover {
     --edge-width: 4;
 }
+.flow-point{
+    width:6px;
+    height:6px;
+    background-color:#FFFF00;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
 
 /* Workaround to dynamically change edge size as we can't do it in C# :( */
 .edge_1 { --edge-width: 1; } .edge_1:hover { --edge-width: 3; }
